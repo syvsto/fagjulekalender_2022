@@ -10,13 +10,13 @@ Hvilke kanaler man velger for å vise et merke i en datavisualisering avgjør i 
 
 Her er en oversikt over forskjellige kanaler, og hvor effektive de er:
 
-![Forskjellige kanaler](./channels_effectiveness.png)
+![Forskjellige kanaler](https://github.com/syvsto/fagjulekalender_2022/blob/main/channels_effectiveness.png)
 
 ## I praksis
 
 Hvilke av mengdene er størst? Kakediagram og søylediagrammet under viser samme data (tre forskjellige mendger), men bruker forskjellige kanaler for å presentere dataene.
 
-![Søyler og kaker](./barchart_piechart.png)
+![Søyler og kaker](https://github.com/syvsto/fagjulekalender_2022/blob/main/barchart_piechart.png)
 
 Som nevnt er merket som brukes i et søylediagram et areal i form av et avlangt rektangel. I kakediagram er merket et areal som ser ut som et kakestykke.
 
