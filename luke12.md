@@ -4,12 +4,12 @@ Datavisualiseringer kan være en god og effektiv måte å  presentere data på, 
 
 ## Merker og kanaler
 
-I faglitteratur om datavisualisering omtaler man gjerne de visuelle elementene som viser datapunkter for "merker" (marks). Hvert merke har én eller flere tilhørende "kanaler" (channels) som visuelt knytter market til datapunktet. Klassiske eksempler på et merke er en søyle i et søylediagram, og kanalen til dette merket er høyden på søylen. 
+I faglitteratur om datavisualisering omtaler man gjerne de visuelle elementene som viser datapunkter for "merker" (marks). Hvert merke har én eller flere tilhørende "kanaler" (channels) som visuelt knytter market til datapunktet. Et klassisk eksempel på et merke er en søyle i et søylediagram, og kanalen som brukes for å vise mengder med dette merket er høyden på søylen. 
 
-Hvilke kanaler man velger for å vise et merke i en datavisualisering avgjør i stor grad hvor presist man leser visualiseringen, og det har blitt gjort diverse forskning på hvilke kanaler som er mest effektive å bruke for nominal data hvor rekkefølgen har betydning (f.eks. klesstørrelser, geografiske koordinater, antall), og ordinal data hvor rekkefølgen ikke har noe å si (bilmerker, brukernavn, osv.).
+Hvilke kanaler man velger for å vise data i en datavisualisering avgjør i stor grad hvor presist man leser visualiseringen, og det har blitt gjort diverse forskning på hvilke kanaler som er mest effektive å bruke for mengdedata og nominal eller ordinal data.
 
-Her er en oversikt over forskjellige kanaler, og hvor effektive de er:
-
+Her er en oversikt over forskjellige kanaler, og hvor effektive de er for henholdsvis mengdedata og nominal data:
+ 
 ![Forskjellige kanaler](https://github.com/syvsto/fagjulekalender_2022/blob/main/channels_effectiveness.png)
 
 ## I praksis
@@ -18,11 +18,9 @@ Hvilke av mengdene er størst? Kakediagram og søylediagrammet under viser samme
 
 ![Søyler og kaker](https://github.com/syvsto/fagjulekalender_2022/blob/main/barchart_piechart.png)
 
-Som nevnt er merket som brukes i et søylediagram et areal i form av et avlangt rektangel. I kakediagram er merket et areal som ser ut som et kakestykke.
+Grunnen til at det er så mye lettere å skille mellom søylene i søylediagrammet er fordi kanalen som viser mengde er "position on a common scale", mens det i kakediagrammet er "tilt/angle", som er en klart mindre effektiv måte å vise mengder på. Videre kan vi se at kanalen som brukes for å skille mellom de forskjellige typene mengde er lik for begge ("spatial region"), men at kakediagrammet på grunn av at kakestykkene er helt inntil hverandre må spe på med "color hue" for å kunne skille de forskjellige kategoriene fra hverandre. I søylediagrammet har vi derimot ikke brukt farge som kanal, og kan derfor spare bruken av dette til å vise en annen fasett av dataene våre ved behov.
 
-Grunnen til at det er så mye lettere å skille mellom søylene i søylediagrammet er fordi kanalen som viser mengde er "position on a common scale", mens det i kakediagrammet er "tilt/angle", som er en klart mindre effektiv måte å vise mengder på. Videre kan vi se at kanalen som brukes for å skille mellom de forskjellige typene mengde er lik for begge ("spatial region"), men at kakediagrammet på grunn av at kakestykkene er helt inntil hverandre må spe på med "color hue" for å kunne skille de forskjellige kategoriene fra hverandre. I søylediagrammet har vi derimot ikke brukt farge som kanal, og kan derfor spare bruken av dette til å vise noe tydeligere.
-
-Neste gang noen kommer og ber deg lage et kakediagram, har du nå faglig argumentasjon for hvorfor det er en dårlig idé, og kan veilede vedkommende i en riktigere og mer effektiv retning.
+Neste gang noen kommer og ber deg lage et kakediagram, har du nå faglig argumentasjon for hvorfor det er en dårlig idé, og kan veilede vedkommende i en bedre og mer effektiv retning.
 
 ## Videre lesning og inspirasjon
 
